@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "PartyBear.io";
 const description = "Party Bear";
-const baseUri = "https://ipfs.io/ipfs/bafybeialz5ox7bjkroy4rp2ie2hbpl3mrlscj5iwdxaug6k6afvsd7kb5e"; // This will be replaced automatically
+const baseUri = "https://ipfs.io/ipfs/bafybeia4z2mjyuazjwhgxrjsswg2eo4obfwpj2z6t6uiyggxac54s4zyzq"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -65,18 +65,18 @@ const PUBLIC_MINT_START_DATE = "2022-05-06T11:30:48+00:00"; // This is required.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 2000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x154F0bd6d96d7F395b3BFD0b5738aEDDe7886Fa2"; // Address that will receive the royalty
-const BASE_URI = "https://ipfs.io/ipfs/bafybeialz5ox7bjkroy4rp2ie2hbpl3mrlscj5iwdxaug6k6afvsd7kb5e"; // only update if you want to manually set the base uri
+const BASE_URI = "https://ipfs.io/ipfs/bafybeia4z2mjyuazjwhgxrjsswg2eo4obfwpj2z6t6uiyggxac54s4zyzq"; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0x4FC9F3B55138170Cf504c906B687Df3Aec906213"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x6c21081285D14e08996Ba90eFd9B9fD97aa97cE1"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x25b45AC110Bf56f8FBeEc95AcA1ff0a761D41032"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which PartyBear will you get?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeiavxgxh65fyvxk2hdc27sk7as2xd6z5cqb23krnyqescrs5yqywnm"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeia4z2mjyuazjwhgxrjsswg2eo4obfwpj2z6t6uiyggxac54s4zyzq"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
