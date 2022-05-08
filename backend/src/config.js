@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "PartyBear.io";
 const description = "Party Bear";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://https://ipfs.io/ipfs/bafybeiavxgxh65fyvxk2hdc27sk7as2xd6z5cqb23krnyqescrs5yqywnm"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -65,7 +65,7 @@ const PUBLIC_MINT_START_DATE = "2022-05-06T11:30:48+00:00"; // This is required.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 2000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x154F0bd6d96d7F395b3BFD0b5738aEDDe7886Fa2"; // Address that will receive the royalty
-const BASE_URI = https://ipfs.io/ipfs/bafybeiavxgxh65fyvxk2hdc27sk7as2xd6z5cqb23krnyqescrs5yqywnm; // only update if you want to manually set the base uri
+const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0x4FC9F3B55138170Cf504c906B687Df3Aec906213"]; // only update if you want to manually set the whitelisted addresses
 
