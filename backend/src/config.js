@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "PartyBear.io";
 const description = "Party Bear";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "https://ipfs.io/ipfs/bafybeialz5ox7bjkroy4rp2ie2hbpl3mrlscj5iwdxaug6k6afvsd7kb5e"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
