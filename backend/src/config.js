@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "PartyBear.io";
 const description = "Party Bear";
-const baseUri = "ipfs://https://ipfs.io/ipfs/bafybeiavxgxh65fyvxk2hdc27sk7as2xd6z5cqb23krnyqescrs5yqywnm"; // This will be replaced automatically
+const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -73,7 +73,7 @@ const PRESALE_WHITELISTED_ADDRESSES = ["0x4FC9F3B55138170Cf504c906B687Df3Aec9062
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which PartyBear will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeiavxgxh65fyvxk2hdc27sk7as2xd6z5cqb23krnyqescrs5yqywnm"; // Replace with your generic image that will display for all NFTs pre-reveal.
