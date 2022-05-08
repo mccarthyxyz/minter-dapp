@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\backend\\src",
-    "\\frontend",
-    "\\frontend\\images",
-    "\\frontend\\images\\slider",
-    "\\frontend\\js"
+    "\\backend\\build\\contract",
+    "\\backend\\build\\ipfsMetas",
+    "\\backend\\utils",
+    "\\backend\\utils\\nftport"
   ],
-  "SelectedNode": "\\backend\\src\\config.js",
+  "SelectedNode": "\\backend\\utils\\nftport\\updateContract.js",
   "PreviewInSolutionExplorer": false
 }
